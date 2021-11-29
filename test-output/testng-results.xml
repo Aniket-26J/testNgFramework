@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63016" started-at="2021-11-22T17:40:11 IST" finished-at="2021-11-22T17:41:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63016" started-at="2021-11-22T17:40:11 IST" finished-at="2021-11-22T17:41:14 IST">
+      <class name="com.testcases.LoginPageTest">
+        <test-method status="PASS" signature="Reportsetup()[pri:0, instance:com.testcases.LoginPageTest@4a87761d]" name="Reportsetup" is-config="true" duration-ms="1900" started-at="2021-11-22T17:40:11 IST" finished-at="2021-11-22T17:40:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.LoginPageTest@4a87761d]" name="setup" is-config="true" duration-ms="46478" started-at="2021-11-22T17:40:13 IST" finished-at="2021-11-22T17:40:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginUsingTestNGDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.LoginPageTest@4a87761d]" name="validateLoginUsingTestNGDataProvider" duration-ms="9" started-at="2021-11-22T17:40:59 IST" data-provider="getData" finished-at="2021-11-22T17:40:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUsingTestNGDataProvider -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.testcases.LoginPageTest@4a87761d]" name="closesetup" is-config="true" duration-ms="1861" started-at="2021-11-22T17:40:59 IST" finished-at="2021-11-22T17:41:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.LoginPageTest@4a87761d]" name="setup" is-config="true" duration-ms="10215" started-at="2021-11-22T17:41:01 IST" finished-at="2021-11-22T17:41:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginUsingTestNGDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.LoginPageTest@4a87761d]" name="validateLoginUsingTestNGDataProvider" duration-ms="2" started-at="2021-11-22T17:41:11 IST" data-provider="getData" finished-at="2021-11-22T17:41:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUsingTestNGDataProvider -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.testcases.LoginPageTest@4a87761d]" name="closesetup" is-config="true" duration-ms="820" started-at="2021-11-22T17:41:11 IST" finished-at="2021-11-22T17:41:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="GenerateReport()[pri:0, instance:com.testcases.LoginPageTest@4a87761d]" name="GenerateReport" is-config="true" duration-ms="1542" started-at="2021-11-22T17:41:12 IST" finished-at="2021-11-22T17:41:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- com.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
